@@ -233,20 +233,20 @@
     \begin{frame}{Model fitting}
         \begin{enumerate}
             \item Find $p_{0}$
-            \item Find $\lambda$ parameter(s)
-            \item Choose optimal model type
+            \item<2-> Find $\lambda$ parameter(s)
+            \item<3-> Choose optimal model type
             \begin{itemize}
-                \item <2-> Akaike Information Criterion (AIC) \& numerical optimization
+                \item <4-> Akaike Information Criterion (AIC) \& numerical optimization
             \end{itemize}
         \end{enumerate}
     \end{frame}
 
     \begin{frame}{Real life application}
         \begin{itemize}
-            \item Results of tennis matches from February till May 2021 together with real life odds (both pre-match and in-play) provided by a bookmaker
+            \item Results of tennis matches from February till May 2021 together with real life odds (both \emph{pre-match} and \emph{in-play}) provided by a bookmaker
 	        \item Data divided into training (February - April) and testing (May) datasets
             \item $p_{0}$ estimated using the first set winning odds provided by the bookmaker
-            \item Single lambda success rewarding model selected as best fit using AIC and training data
+            \item ``Single lambda success rewarding'' model selected as best fit using AIC and training data
         \end{itemize}
     \end{frame}
 
